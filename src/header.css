@@ -1,0 +1,417 @@
+.nav-bar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10px;
+  }
+  .border{
+    border: 1px solid transparent !important;
+  }
+  .border:hover{
+    border: 1px solid white !important;
+  }
+  .nav-logo{
+    height: 40px;
+    width: 120px;
+  }
+  .logo{
+    height: 40px;
+    width: 100%;
+    background-image: url("./images/logo.png");
+    background-size: cover;
+  }
+  .nav-address {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px;
+    height: 30px;
+    width: 75px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    box-sizing: content-box !important;
+  }
+.add-first{
+    color: #cccccc;
+    margin-left: 15px;
+    font-size: 0.85rem;  
+    margin-bottom: 0;
+  }
+.add-sec{
+    display: flex;
+    color:#ffffff;
+    font-size: 1.rem;
+    align-items: center;  
+}
+.location-icon {
+  margin-right: 3px; /* Adjust as needed to align with "India" text */
+  font-size: 1rem; /* Adjust size as needed */
+}
+
+
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  border-radius: 10px;
+  flex: 1;
+  max-width: 1000px; /* Adjust the max-width as needed */
+  min-width: 100px; /* Optional: Set a minimum width for responsiveness */
+}
+.nav-search-dropdown {  
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  width: 50px;
+ align-content:center;
+ padding-left: 6px;
+ background-color: rgb(221, 220, 220);
+}
+.search-select{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #f3f3f3;
+  text-align: center;
+  width: 50px;
+  border: none;
+}
+.search-input{
+  width: 100%;
+  font-size: 1rem;
+  padding-left: 10px;
+  border: none;
+    outline: none;
+}
+.search-icon{
+width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+background-color: #febd68;
+border-bottom-right-radius: 4px;
+border-top-right-radius: 4px;
+color: #0f1111;
+}
+.nav-search:hover{
+  border: 2px solid orange;
+}
+.language{
+  margin-right: 0;
+  margin-left: 1px;
+  padding-left: 9px;
+  padding-top: 10px;
+ 
+}
+/* styles.css */
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  background-color: #0f1111;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1 rem;
+  font-weight: 700;
+  vertical-align: middle;
+}
+/* Flag icon */
+.dropdown .flag-icon {
+  vertical-align: middle; /* Add this line */
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 170px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 3%;
+
+}
+/* Links inside the dropdown */
+.dropdown-content label {
+  display: block;
+  margin: 5px;
+  color: black;
+}
+
+/* Change color of dropdown links on hover */
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #0f1111;
+}
+
+span{
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding-left: 5px;
+}
+.nav-second{
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.text2{
+  padding-left: 5px;
+}
+.nav-signin a{
+color: white;
+text-decoration: none;
+}
+.nav-return a{
+  color: white;
+  text-decoration: none;
+  }
+  .nav-return span{
+    padding-left: 0;
+  }
+.nav-cart{
+  font-size: 1 rem;
+  font-weight: 500;
+}
+/*panel 1*/
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.panel i{
+  padding-right: 0.5rem;
+}
+.panel-ops p{
+  display: inline;
+  margin-left: 15px;
+}
+.panel-ops{
+  width: 80%;
+  font-size: 0.85rem;
+}
+.panel-deals{
+  font-size: 0.85rem;
+  width: 700;
+}
+@media (max-width: 768px) {
+  .nav-bar{
+    height: 50px;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 3px;
+  }
+  .border{
+    border: 0.5px solid transparent !important;
+  }
+  .border:hover{
+    border: 0.5px solid white !important;
+  }
+  .nav-logo {
+    height: 25px;
+    width: 70px;
+}
+.logo {
+    height: 25px;
+}
+  .nav-address {
+    display: flex;
+    flex-direction: column;
+    height: 1px;
+    width: 45px;
+    padding: 0 0 0.5rem 0 !important;
+    box-sizing: content-box !important;
+    align-items: center;
+    align-content: center;
+  }
+.add-first{
+    color: #cccccc;
+    margin-left: 10px;
+    font-size: 0.4rem;  
+    margin-bottom: 0;
+  }
+.add-sec{
+    display: flex;
+    color:#ffffff;
+    font-size: 0.5rem;  
+}
+.location-icon {
+  margin-right: 1.5px; /* Adjust as needed to align with "India" text */
+  font-size: 0.5rem; /* Adjust size as needed */
+}
+
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  height: 20px;
+  border-radius: 5px;
+  flex: 1;
+  max-width: 500px; /* Adjust the max-width as needed */
+  min-width: 50px; /* Optional: Set a minimum width for responsiveness */
+}
+.nav-search-dropdown {  
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  width: 25px;
+  align-content:center;
+  padding-left: 3px;
+  background-color: rgb(221, 220, 220);
+}
+.search-select{
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: #f3f3f3;
+  text-align: center;
+  width: 25px;
+  border: none;
+}
+.search-input{
+  width: 100%;
+  font-size: 0.5rem;
+  padding-left: 5px;
+  border: none;
+  outline: none;
+}
+.search-icon{
+width: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.6rem;
+background-color: #febd68;
+border-bottom-right-radius: 2px;
+border-top-right-radius: 2px;
+color: #0f1111;
+}
+.nav-search:hover{
+  border: 1px solid orange;
+}
+.language{
+  margin-right: 0;
+  margin-left: 0.5px;
+  padding-left: 4.5px;
+  padding-top: 5px;
+ 
+}
+/* styles.css */
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  background-color: #0f1111;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 0.5rem;
+  font-weight: 1000;
+  vertical-align: middle;
+}
+/* Flag icon */
+.dropdown .flag-icon {
+  vertical-align: middle; /* Add this line */
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 85px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 1.5%;
+
+}
+/* Links inside the dropdown */
+.dropdown-content label {
+  display: block;
+  margin: 2.5px;
+  color: black;
+}
+
+/* Change color of dropdown links on hover */
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #0f1111;
+}
+
+span{
+  font-size: 0.35rem;
+  font-weight: 1000;
+  margin-bottom: 0px;
+  padding-left: 2.5px;
+}
+.nav-second{
+  font-size: 0.42rem;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+}
+.text2{
+  padding-left: 2.5px;
+}
+.nav-signin a{
+color: white;
+text-decoration: none;
+}
+.nav-return a{
+  color: white;
+  text-decoration: none;
+  }
+  .nav-return span{
+    padding-left: 0;
+  }
+.nav-cart{
+  font-size: 0.5rem;
+  font-weight: 1000;
+  padding-right: 0px;
+}
+/*panel 1*/
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.panel i{
+  padding-right: 0.25rem;
+}
+.panel-ops p{
+  display: inline;
+  margin-left: 15px;
+}
+.panel-ops{
+  width: 70%;
+  font-size: 0.4rem;
+}
+.panel-deals{
+  font-size: 0.4rem;
+  width: 1000;
+}
+}

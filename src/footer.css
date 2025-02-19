@@ -1,0 +1,100 @@
+/* footer */
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    }
+    .foot-panel2{
+        background-color: #222f3d;
+        color: white;
+        height: auto;
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    }
+    ul{
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+    ul a{
+        display: block;
+        font-size: 0.85rem;
+        margin-top: 20px;
+        color: #dddddd;
+    }
+    .foot-panel3{
+        background-color: #222f3d;
+        color: white;
+        border-top: 0.5px solid white;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logoo{
+        height: 45px;
+        width: 140px;
+        background-image: url("./images/logo.png");
+        background-size: cover;
+    }
+    .foot-panel4{
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        font-size: 0.7rem;
+        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+        text-align: center; /* Centers text on smaller screens */
+    }
+    .pages a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    .copyright{
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+    @media (max-width: 768px) {
+        .foot-panel2 {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        ul {
+            margin: 20px 0;
+        }
+    
+        .foot-panel4 {
+            flex-direction: column;
+        }
+    
+        .pages a {
+            margin: 5px 0;
+        }
+    
+        .copyright {
+            padding-top: 10px;
+            padding-left: 0;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .foot-panel1 {
+            font-size: 0.8rem;
+        }
+    
+        ul a {
+            font-size: 0.75rem;
+        }
+    
+        .foot-panel4 {
+            font-size: 0.6rem;
+        }
+    }

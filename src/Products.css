@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* body section */
+.panel-1{
+    height: 40px;
+    border: 0.1em solid rgb(187, 184, 184);
+    align-content: center;
+}
+.pan-tx1{
+    line-height: 20px;
+    font-family: Arial, sans-serif;
+    color: #0f1111;
+    font-size: larger;
+    padding-left: 10px;
+    margin-right: 1200px;
+}
+.sec-one{
+       display: flex;
+       align-items: center;
+       padding: 10px;  
+}
+.today-img{
+    background-image: url("./Pics/today.png");
+    height: 75px;
+    width: 180px;
+    background-size: cover;
+}
+.text1{
+    padding: 20px;
+    padding-left: 10px;
+    background-color: #cccccc;
+    font-display: auto;
+}
+.text1 a{
+   color: steelblue;
+}
+.text1 h4, .text1 p, .text1 a {
+    margin-bottom: 5px; /* Adjust the value as needed */
+}
+.text2{
+    padding-left: 20px;
+}
+.body-sec1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.body-sec2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.body-sec3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.body-sec4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.box1 {
+    height: 600px;
+    width: 250px;
+    border: 0.1em solid rgb(235, 232, 232);
+    
+}
+.box1-1{
+    height: 220px;
+    width: 238px;
+    border: 0.1em solid rgb(187, 184, 184);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.box1-img1{
+height: 210px;
+width: 190px;
+background-image: url('./Pics/img1.jpg');
+background-size: cover;
+}
+.box1-img2{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img2.jpg');
+    background-size: cover;
+}
+.box1-img3{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img3.jpg');
+    background-size: cover;
+}
+.box1-img4{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img4.jpg');
+    background-size: cover;
+}
+.box1-img5{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img5.jpg');
+    background-size: cover;
+}
+.box1-img6{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img6.jpg');
+    background-size: cover;
+}
+.box1-img7{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img7.jpg');
+    background-size: cover;
+}
+.box1-img8{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img8.jpg');
+    background-size: cover;
+}
+.box1-img9{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img9.jpg');
+    background-size: cover;
+}
+.box1-img10{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img10.jpg');
+    background-size: cover;
+}
+.box1-img11{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img11.jpg');
+    background-size: cover;
+}
+.box1-img12{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img12.jpg');
+    background-size: cover;
+}
+.box1-img13{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img13.jpg');
+    background-size: cover;
+}
+.box1-img14{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img14.jpg');
+    background-size: cover;
+}
+.box1-img15{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img15.jpg');
+    background-size: cover;
+}
+.box1-img16{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img16.jpg');
+    background-size: cover;
+}
+.box1-img17{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img17.jpg');
+    background-size: cover;
+}
+.box1-img18{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img18.jpg');
+    background-size: cover;
+}
+.box1-img19{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img19.jpg');
+    background-size: cover;
+}
+.box1-img20{
+    height: 210px;
+    width: 220px;
+    background-image: url('./Pics/img20.jpg');
+    background-size: cover;
+}
+.tooltip-box {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #37475a;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.container {
+    position: relative;
+}
+
+.container:hover .tooltip-box {
+    display: block;
+}
+
+.box1 p{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.star {
+    color: orange; /* Set the color of the stars */
+    font-size: 20px; /* Adjust size as needed */
+    padding-right: 10px;
+}
+.down-arrow {
+    font-size: 14px; /* Adjust size as needed */
+    padding-right: 5px;
+   
+  }  
+.text3{
+    font: 13px sans-serif;
+    padding-top: 4px;
+    padding-left: 5px;
+    color:#37475a ;
+}
+.tooltip-box a, a:link, a:visited {
+    text-decoration: none;
+    color: #007185;
+}
+a, a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+body {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, sans-serif;
+    color: #0f1111;
+}
+.limit{
+    height: 40px;
+    font-weight: 100px;
+    background-color: #CC0C39;
+    color: #cccccc;
+    padding: 7px;
+}
+.limit-g{
+    height: 40px;
+    background-color: #7fda69;
+    color: black;
+    padding: 5px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 12px;
+}
+.lim{
+    padding-left: 5px;
+    padding-top: 8px;
+    }
+.price{
+    font: 30px sans-serif;
+}
+.price,
+.price-per-count, 
+.mrp {
+  display: inline; /* Display elements inline */
+  margin-right: 3px; /* Add some spacing between elements */
+}
+.larger-text {
+    font-size: 13px; /* Adjust the font size as needed */
+    color:#37475a ;
+  }  
+
+del {
+    text-decoration: line-through;
+  }  
+.Get,
+.date{
+    display: inline; /* Display elements inline */
+  margin-right: 3px; /* Add some spacing between elements */
+}
+.date{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
